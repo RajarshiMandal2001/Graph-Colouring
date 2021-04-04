@@ -1,0 +1,13 @@
+Graph colourng is the process of colouring a graph nodes in such a way that no two adjacent nodes have the same colour.
+Chromatic number of a graph is the munimum number of colours required to colour the graph properly that follows the above condition.
+This algorithm finds the chromatic number of a graph whose 
+1) no. of vertices
+2)no. of edges 
+3) n edges like 23,45, .... 
+is given by the user at run time,and a corresponding adjacency matrix is created upon which the algorithm works.
+This program also creates a graph using matplotlib pyplot of the coloured graph.
+[*NOTE:     This algorithm is sensitive to numbering of nodes i.e in some cases different node numbering may yield different chromatic numbers for the same graph]
+In this algorithm i am using numbers as colour like 1000,1001,1002..... and since matplotlib pyplot is not allowing to assign two nodes with same node no.(here colour),
+i am using 1000 and 1000.1 1000.2 ..... as same colour ,similarly 1003.4 and 1003.5 are also same colours.
+This algorithm may produce slightly different visual graph for disjoint graphs but chromatic number may be correct. 
+
